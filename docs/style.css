@@ -240,22 +240,7 @@ section .title::after{
 .about .about-content .right p{
     text-align: justify;
 }
-.about .about-content .right a{
-    display: inline-block;
-    background: crimson;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 10px 30px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid crimson;
-    transition: all 0.3s ease;
-}
-.about .about-content .right a:hover{
-    color: crimson;
-    background: none;
-}
+
 
 /* services section styling */
 .services, .teams{
@@ -553,6 +538,26 @@ footer span a{
 }
 footer span a:hover{
     text-decoration: underline;
+}
+.button1 {
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 28px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #d03851;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 9px rgb(9, 226, 67);
+  }
+.button1:hover {background-color: #f32c2c}
+.button1:active {
+    background-color: #cc1c31;
+    box-shadow: 0 5px rgb(22, 235, 61);
+    transform: translateY(4px);
 }
 
 
